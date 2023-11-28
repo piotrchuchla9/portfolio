@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: #D7E7EB;
+}
+
+.background {
+  background-image: url("../public/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center left;
+}
+
+.bg-gradient-transition {
+  background-image: linear-gradient(to right, #44c4ff, white);
+  transition: background-image 0.3s ease-in-out;
+}
+
+.bg-gradient-transition:hover {
+  background-image: linear-gradient(to right, white, #44c4ff);
+}
+
+.relativeImage {
+  position: relative;
+  overflow: hidden;
+}
+
+.zoomedImage {
+  transform: scale(1.1) rotate(5deg);
+  transform-origin: top left;
+  transition: transform 0.3s ease-in-out;
+}
