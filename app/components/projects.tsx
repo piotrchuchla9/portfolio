@@ -32,7 +32,7 @@ export function Projects() {
         <div className="flex">
           <a
             className="block"
-            href="https://chuchla.dev/en"
+            href="https://statsnba.netlify.app/en/games"
             target="_blank"
             onMouseEnter={() => setIsHoveredFirst(true)}
             onMouseLeave={() => setIsHoveredFirst(false)}
