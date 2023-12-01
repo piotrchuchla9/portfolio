@@ -13,7 +13,7 @@ body {
 }
 
 .background {
-  background-image: url("https://i.postimg.cc/VkW6qZ3R/bg.jpg");
+  background-image: url("../public/bgg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
