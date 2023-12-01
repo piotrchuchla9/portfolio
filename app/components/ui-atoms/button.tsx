@@ -15,8 +15,8 @@ export function ButtonNav({
   target,
 }: ButtonNavInterface) {
   return (
-    <Link className={className} href={to} target={target}>
+    <a className={className} href={to} target={target}>
       {children}
-    </Link>
+    </a>
   );
 }
