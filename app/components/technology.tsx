@@ -25,9 +25,7 @@ export function Technology() {
                 className="flex justify-center items-start text-[60px]"
               >
                 <p>
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#44c4ff] via-red-200 via-pink-500 to-pink-400">
-                    {`${i}`}
-                  </span>
+                  <span className="text-pink-400">{`${i}`}</span>
                   <span className="mx-6">&#8226;</span>
                 </p>
               </div>
