@@ -7,7 +7,7 @@ export function Contact() {
       <p className="text-xl pb-10 pt-10 text-center">CONTACT</p>
       <p className="text-4xl md:text-5xl pb-10 text-center mx-10 md:mx-0">
         Ready to{" "}
-        <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#44c4ff] via-purple-400 via-pink-500 to-orange-500">
+        <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#44c4ff] via-purple-400 via-pink-500 to-orange-500">
           develop
         </span>{" "}
         your next big thing?
