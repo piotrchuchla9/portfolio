@@ -25,7 +25,13 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
           rel="stylesheet"
         />
-        <link rel="icon" href="/favicon.ico" />
+        {/* <link rel="icon" href="/favicon.ico" /> */}
+        <link
+          rel="icon"
+          type="image/svg+xml"
+          href="/favicon.svg"
+        />
+        <link rel="icon" type="image/png" href="/favicon.png" />
       </Head>
       <body className={twMerge(montserrat.className, "bg-gray-800 background")}>
         {children}
