@@ -27,8 +27,8 @@ export default function RootLayout({
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <body className={twMerge(montserrat.className, "bg-gray-800 relative")}>
-        <div className="w-[100vw] h-[100vh] top-0 left-0 background fixed z-[-10]"></div>
+      <body className={twMerge(montserrat.className, "bg-gray-800 background-desktop relative")}>
+        <div className="md:hidden w-[100vw] h-[100vh] top-0 left-0 background-mobile fixed z-[-10]"></div>
         {children}
       </body>
     </html>

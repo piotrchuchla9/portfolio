@@ -12,11 +12,18 @@ body {
   color: #D7E7EB;
 }
 
-.background {
-  background-image: url("../public/bgg.jpg");
+.background-desktop {
+  background-image: url("../public/bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
+  background-position: center left;
+}
+
+.background-mobile {
+  background-image: url("../public/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center right; 
 }
 
