@@ -19,9 +19,14 @@ const config: Config = {
           "0%": { left: "0" },
           "100%": { left: "-100%" },
         },
+        scrollMd: {
+          "0%": { left: "0" },
+          "100%": { left: "-440%" },
+        }
       },
       animation: {
         "scroll-15s": "scroll 15s linear infinite",
+        "scroll-5s": "scrollMd 10s linear infinite",
       },
     },
   },

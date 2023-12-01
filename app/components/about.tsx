@@ -5,10 +5,10 @@ import { TypeAnimation } from "react-type-animation";
 /* eslint-disable react/no-unescaped-entities */
 export function About() {
   return (
-    <div className="mt-40 py-4 px-8 text-center rounded-lg mb-20 flex justify-center">
-      <div className="max-w-[1000px]">
+    <div className="mt-40 py-4 px-8 text-center rounded-lg md:mb-20 flex justify-center">
+      <div className="max-w-[400px] md:max-w-[1000px]">
         <p className="text-xl pb-10">ABOUT ME</p>
-        <p className="text-5xl leading-normal">
+        <p className="text-xl md:text-5xl leading-normal">
           <span>I'm a </span>
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#44c4ff] to-white">
             <TypeAnimation
@@ -30,7 +30,7 @@ export function About() {
             />
           </span>
           <span>
-            developer <br></br>
+            developer<br></br>
           </span>
           <span>
             focusing on developing bug-free 🐛 web aplications. As an front end

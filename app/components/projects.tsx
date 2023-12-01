@@ -28,8 +28,8 @@ export function Projects() {
   return (
     <div id="projects">
       <p className="text-xl pb-10 pt-10 text-center">MY PROJECTS</p>
-      <div className="bg-gray-800 bg-opacity-60 py-4 px-8 rounded-lg mb-20 max-w-[750px] mx-auto">
-        <div className="flex">
+      <div className="bg-gray-800 bg-opacity-60 py-4 px-8 rounded-lg mb-20 max-w-[400px] md:max-w-[750px] mx-auto">
+        <div className="md:flex">
           <a
             className="block"
             href="https://statsnba.netlify.app/en/games"
@@ -47,8 +47,8 @@ export function Projects() {
               />
             </div>
           </a>
-          <div className="ml-4 text-4xl w-20">
-            <div className="pl-4 flex flex-col gap-4 items-center">
+          <div className="md:block md:ml-4 mt-3 md:mt-0 text-4xl md:w-20 max-w-[400px]">
+            <div className="flex md:pl-4 md:flex-col gap-4 md:items-center">
               <div title="React">
                 <IconReact />
               </div>
@@ -70,6 +70,14 @@ export function Projects() {
               <div title="i18n">
                 <IconLanguage />
               </div>
+              <div className="hidden md:block" title="GitHub">
+                <IconGithub />
+              </div>
+              <div className="hidden md:block" title="DaisyUI">
+                <IconDaisy />
+              </div>
+            </div>
+            <div className="flex md:hidden md:pl-4 md:flex-col gap-4 items-center">
               <div title="GitHub">
                 <IconGithub />
               </div>
@@ -83,7 +91,7 @@ export function Projects() {
           <p className="font-semibold">NBA Stats</p>
           <p className="text-xl">Check out specific NBA stats</p>
         </div>
-        <div className="flex mt-10 border-t-[1px] border-gray-500 pt-10">
+        <div className="md:flex mt-10 border-t-[1px] border-gray-500 pt-10">
           <a
             href="https://trader-praca-inz.netlify.app"
             target="_blank"
@@ -101,8 +109,8 @@ export function Projects() {
               />
             </div>
           </a>
-          <div className="ml-4 text-4xl w-20">
-            <div className="pl-4 flex flex-col gap-4 items-center">
+          <div className="md:ml-4 mt-3 md:mt-0 text-4xl w-20">
+            <div className="md:pl-4 flex md:flex-col gap-4 items-center">
               <div title="React">
                 <IconReact />
               </div>
@@ -131,7 +139,7 @@ export function Projects() {
           <p className="font-semibold">Crypto Trader</p>
           <p className="text-xl">Invest into crypto</p>
         </div>
-        <div className="flex mt-10 border-t-[1px] border-gray-500 pt-10">
+        <div className="md:flex mt-10 border-t-[1px] border-gray-500 pt-10">
           <a
             className="block"
             target="_blank"
@@ -149,8 +157,8 @@ export function Projects() {
               />
             </div>
           </a>
-          <div className="ml-4 text-4xl w-20">
-            <div className="pl-4 flex flex-col gap-4 items-center">
+          <div className="md:ml-4 text-4xl w-20">
+            <div className="md:pl-4 mt-3 md:mt-0 flex md:flex-col gap-4 items-center">
               <div title="React">
                 <IconReact />
               </div>

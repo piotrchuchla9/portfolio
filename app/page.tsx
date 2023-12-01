@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <div className="flex flex-col items-center scroll-smooth">
+      <div className="flex flex-col items-center">
         <div className="">
           <Hero />
           <Projects />
