@@ -1,5 +1,7 @@
 "use client";
 
+import { IconDot } from "@/public";
+
 export function Technology() {
   const items = [
     "FRONTEND",
@@ -25,8 +27,15 @@ export function Technology() {
                 className="flex justify-center items-start text-[60px]"
               >
                 <p>
-                  <span className="text-pink-400">{`${i}`}</span>
-                  <span className="mx-6">&#8226;</span>
+                  <span className="text-pink-400 flex items-center">
+                    <span className="ml-4">
+                      <IconDot />
+                    </span>
+                    {`${i}`}
+                    <span className="mr-4">
+                      <IconDot />
+                    </span>
+                  </span>
                 </p>
               </div>
             );
@@ -38,8 +47,15 @@ export function Technology() {
                 className="flex justify-center items-start text-[60px]"
               >
                 <p>
-                  <span className="text-pink-400">{`${i}`}</span>
-                  <span className="mx-6">&#8226;</span>
+                  <span className="text-pink-400 flex items-center">
+                    <span className="ml-4">
+                      <IconDot />
+                    </span>
+                    {`${i}`}
+                    <span className="mr-4">
+                      <IconDot />
+                    </span>
+                  </span>
                 </p>
               </div>
             );

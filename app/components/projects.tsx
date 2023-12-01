@@ -26,8 +26,8 @@ export function Projects() {
   const [isHoveredSecond, setIsHoveredSecond] = useState(false);
   const [isHoveredThird, setIsHoveredThird] = useState(false);
   return (
-    <div>
-      <p className="text-xl pb-10 pt-10 text-center">My projects</p>
+    <div id="projects">
+      <p className="text-xl pb-10 pt-10 text-center">MY PROJECTS</p>
       <div className="bg-gray-800 bg-opacity-60 py-4 px-8 rounded-lg mb-20 max-w-[750px] mx-auto">
         <div className="flex">
           <a

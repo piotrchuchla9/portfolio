@@ -41,7 +41,7 @@ export function Hero() {
           </p>
         </div>
         <ButtonNav
-          to="#contact"
+          to="#projects"
           className="py-4 px-8 mt-4 mb-2 rounded-2xl bg-gradient-to-r from-[#4862df] to-gray-400 items-center justify-center inline-block"
         >
           <span className="text-3xl text-white font-semibold">

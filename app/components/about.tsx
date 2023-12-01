@@ -7,7 +7,7 @@ export function About() {
   return (
     <div className="mt-40 py-4 px-8 text-center rounded-lg mb-20 flex justify-center">
       <div className="max-w-[1000px]">
-        <p className="text-xl pb-10">About me</p>
+        <p className="text-xl pb-10">ABOUT ME</p>
         <p className="text-5xl leading-normal">
           <span>I'm a </span>
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#44c4ff] to-white">

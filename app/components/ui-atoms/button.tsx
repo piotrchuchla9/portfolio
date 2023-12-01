@@ -5,11 +5,17 @@ interface ButtonNavInterface {
   to: string;
   children: ReactNode;
   className?: string;
+  target?: string;
 }
 
-export function ButtonNav({ to, children, className }: ButtonNavInterface) {
+export function ButtonNav({
+  to,
+  children,
+  className,
+  target,
+}: ButtonNavInterface) {
   return (
-    <Link className={className} href={to}>
+    <Link className={className} href={to} target={target}>
       {children}
     </Link>
   );
